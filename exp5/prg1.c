@@ -19,7 +19,7 @@ int pop()
 }
 void main()
 {
-    printf("\nEnter a valid postfix expression:\n");
+    printf("\nEnter a valid postfix expression:\n\n");
     scanf("%s", postfix);
     for (i = 0; postfix[i] != '\0'; i++)
     {
